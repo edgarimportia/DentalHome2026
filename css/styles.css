@@ -5,9 +5,9 @@
 
 /* ---- Variables ---- */
 :root {
-  --primary:       #0b6e8a;
-  --primary-dark:  #085570;
-  --primary-light: #1a91b2;
+  --primary:       #1565c0;
+  --primary-dark:  #0d47a1;
+  --primary-light: #4fc3f7;
   --accent:        #f0c060;
   --accent-dark:   #d4a840;
   --dark:          #0f1f2d;
@@ -227,9 +227,21 @@ input, select, textarea { font-family: inherit; }
 .logo-accent {
   font-size: 1.4rem;
   font-weight: 800;
-  color: var(--accent);
+  color: var(--primary-light);
 }
+.logo-tagline {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 500;
+  color: rgba(255,255,255,.65);
+  letter-spacing: 0.03em;
+  line-height: 1;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+.navbar.scrolled .logo-tagline { color: var(--gray-400); }
 .navbar.scrolled .logo-main { color: var(--dark); }
+.navbar.scrolled .logo-accent { color: var(--primary); }
 
 .navbar__menu { margin-left: auto; }
 .navbar__list {
@@ -1276,6 +1288,15 @@ input, select, textarea { font-family: inherit; }
 .footer__brand { }
 .footer__logo { margin-bottom: 16px; }
 .footer__logo .logo-main { color: var(--white); }
+.footer__logo .logo-accent { color: var(--primary-light); }
+.footer__logo .logo-tagline { color: rgba(255,255,255,.45); }
+.footer__tagline__slogan {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-light);
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
 .footer__tagline {
   font-size: 0.9rem;
   line-height: 1.7;

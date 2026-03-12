@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dental Home – Clínica odontológica en Lima. Tratamientos personalizados, tecnología de vanguardia y más de 15 años de experiencia. Agenda tu cita hoy." />
+  <meta name="keywords" content="dentista lima, clinica dental, implantes dentales, ortodoncia, blanqueamiento, odontología lima peru" />
+  <meta name="theme-color" content="#0b6e8a" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dental Home – Tu Sonrisa, Nuestra Pasión" />
+  <meta property="og:description" content="Clínica odontológica en Lima. Tratamientos personalizados con tecnología digital de vanguardia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/og-image.jpg" />
+
+  <title>Dental Home | Clínica Odontológica en Lima</title>
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Dental Home",
+    "description": "Clínica odontológica con tecnología digital y atención personalizada en Lima, Perú",
+    "url": "https://dentalhome.pe",
+    "telephone": "+51999999999",
+    "email": "citas@dentalhome.pe",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Principal 123",
+      "addressLocality": "Lima",
+      "addressCountry": "PE"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "sameAs": [
+      "https://facebook.com/dentalhome",
+      "https://instagram.com/dentalhome",
+      "https://tiktok.com/@dentalhome"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="navbar__logo" aria-label="Dental Home inicio">
+        <span class="logo-icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 3C13 3 7 7.5 7 14c0 4 1.5 7 3 10 1.5 3 3 6 4 8h8c1-2 2.5-5 4-8 1.5-3 3-6 3-10 0-6.5-6-11-11-11z" fill="#0b6e8a"/>
+            <path d="M13 14c0-2.8 2.2-5 5-5s5 2.2 5 5" stroke="#f0c060" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div class="logo-text">
+          <span class="logo-main">Dental</span><span class="logo-accent">Home</span>
+        </div>
+      </a>
+
+      <nav class="navbar__menu" id="navMenu" aria-label="Menú principal">
+        <ul class="navbar__list">
+          <li><a href="#inicio" class="navbar__link">Inicio</a></li>
+          <li><a href="#nosotros" class="navbar__link">Nosotros</a></li>
+          <li><a href="#servicios" class="navbar__link">Servicios</a></li>
+          <li><a href="#tecnologia" class="navbar__link">Tecnología</a></li>
+          <li><a href="#galeria" class="navbar__link">Galería</a></li>
+          <li><a href="#testimonios" class="navbar__link">Testimonios</a></li>
+          <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/51999999999?text=Hola%2C%20deseo%20agendar%20una%20cita%20en%20Dental%20Home" class="btn btn--primary navbar__cta" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Agendar Cita
+      </a>
+
+      <button class="navbar__burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+        <div class="hero__particles" id="particles" aria-hidden="true"></div>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__text reveal">
+          <span class="hero__badge">✦ Clínica Dental en Lima</span>
+          <h1 class="hero__title">
+            Tu Sonrisa<br/>
+            <em>Merece lo Mejor</em>
+          </h1>
+          <p class="hero__subtitle">
+            Tratamientos odontológicos personalizados con tecnología 100% digital,
+            especialistas certificados y más de <strong>15 años</strong> transformando sonrisas en Lima.
+          </p>
+          <div class="hero__actions">
+            <a href="https://wa.me/51999999999?text=Hola%2C%20deseo%20agendar%20una%20cita" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Reservar por WhatsApp
+            </a>
+            <a href="#servicios" class="btn btn--ghost btn--lg">
+              Ver Servicios
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+          </div>
+          <div class="hero__trust">
+            <div class="trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Sin dolor garantizado
+            </div>
+            <div class="trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Financiamiento disponible
+            </div>
+            <div class="trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              1ª consulta gratuita
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal--right">
+          <div class="hero__card-main">
+            <div class="hero__smile-icon">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="60" r="55" fill="white" opacity="0.1" stroke="white" stroke-width="2"/>
+                <path d="M35 55 Q60 85 85 55" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+                <circle cx="44" cy="44" r="5" fill="white" opacity="0.9"/>
+                <circle cx="76" cy="44" r="5" fill="white" opacity="0.9"/>
+                <rect x="42" y="60" width="8" height="12" rx="3" fill="white" opacity="0.8"/>
+                <rect x="52" y="58" width="8" height="14" rx="3" fill="white"/>
+                <rect x="62" y="58" width="8" height="14" rx="3" fill="white"/>
+                <rect x="72" y="60" width="8" height="12" rx="3" fill="white" opacity="0.8"/>
+              </svg>
+            </div>
+            <div class="hero__badge-card">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>Calificación 5.0</span>
+            </div>
+          </div>
+          <div class="hero__stats-float">
+            <div class="stat-card">
+              <span class="stat-num" data-target="800">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Pacientes felices</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-target="15">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Años de experiencia</span>
+            </div>
+            <div class="stat-card stat-card--accent">
+              <span class="stat-num" data-target="12">0</span><span class="stat-suffix"></span>
+              <span class="stat-label">Especialidades</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8fafc"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ==================== URGENCIAS BANNER ==================== -->
+    <section class="urgencias-banner">
+      <div class="container urgencias-banner__inner">
+        <div class="urgencias-banner__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <div class="urgencias-banner__text">
+          <strong>Urgencias Dentales 24/7</strong>
+          <span>Atendemos emergencias a cualquier hora. ¡Llámanos ahora!</span>
+        </div>
+        <a href="tel:+51999999999" class="btn btn--white btn--sm">
+          +51 999 999 999
+        </a>
+      </div>
+    </section>
+
+    <!-- ==================== NOSOTROS ==================== -->
+    <section class="section nosotros" id="nosotros">
+      <div class="container">
+        <div class="nosotros__grid">
+          <div class="nosotros__visual reveal">
+            <div class="nosotros__img-wrap">
+              <div class="nosotros__img-placeholder">
+                <svg viewBox="0 0 300 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="300" height="350" rx="20" fill="#e8f4f8"/>
+                  <circle cx="150" cy="120" r="60" fill="#0b6e8a" opacity="0.15"/>
+                  <circle cx="150" cy="100" r="40" fill="#0b6e8a" opacity="0.3"/>
+                  <rect x="80" y="170" width="140" height="160" rx="10" fill="#0b6e8a" opacity="0.1"/>
+                  <text x="150" y="270" text-anchor="middle" fill="#0b6e8a" font-size="14" font-family="sans-serif">Tu foto aquí</text>
+                </svg>
+              </div>
+              <div class="nosotros__exp-badge">
+                <span class="exp-num">15</span>
+                <span class="exp-text">Años de<br/>Experiencia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="nosotros__content reveal reveal--right">
+            <span class="section__eyebrow">Sobre Nosotros</span>
+            <h2 class="section__title">Cuidamos Tu Salud Bucal con Dedicación y Tecnología</h2>
+            <p class="nosotros__desc">
+              En <strong>Dental Home</strong> creemos que una sonrisa saludable transforma vidas. Desde hace más de 15 años brindamos atención odontológica integral con enfoque humano, tecnología de vanguardia y los más altos estándares de calidad.
+            </p>
+            <p class="nosotros__desc">
+              Nuestro equipo multidisciplinario de especialistas certificados trabaja de forma coordinada para ofrecerte el mejor diagnóstico y el tratamiento más adecuado para ti.
+            </p>
+
+            <div class="nosotros__features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <strong>Diagnóstico Digital Preciso</strong>
+                  <p>Radiografías 3D y tecnología DiagnoCam para detectar problemas antes de que avancen.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                </div>
+                <div>
+                  <strong>Equipo Especializado</strong>
+                  <p>10 especialistas certificados en cada área de la odontología moderna.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <div>
+                  <strong>Laboratorio Dental Propio</strong>
+                  <p>Control total de calidad, menores tiempos de espera y resultados duraderos.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                </div>
+                <div>
+                  <strong>Financiamiento al 100%</strong>
+                  <p>Tratamientos accesibles con planes de pago adaptados a tu presupuesto.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contacto" class="btn btn--primary">Conócenos Mejor</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICIOS ==================== -->
+    <section class="section servicios" id="servicios">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Nuestros Servicios</span>
+          <h2 class="section__title">Especialidades Odontológicas Completas</h2>
+          <p class="section__subtitle">Todo lo que tú y tu familia necesitan en un solo lugar, con la más alta tecnología y especialistas certificados.</p>
+        </div>
+
+        <div class="servicios__grid">
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--1">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6C18 6 10 11 10 19c0 5 2 9 4 13 2 4 4 8 5 10h10c1-2 3-6 5-10 2-4 4-8 4-13 0-8-7-13-14-13z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M17 19c0-3.9 3.1-7 7-7s7 3.1 7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Implantes Dentales</h3>
+            <p class="service-card__desc">Reemplaza tus dientes perdidos con implantes de titanio de última generación. Resultados naturales y duraderos.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--2">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M16 26s2 4 8 4 8-4 8-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M19 20c0-1.1.9-2 2-2s2 .9 2 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M25 20c0-1.1.9-2 2-2s2 .9 2 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Estética Dental</h3>
+            <p class="service-card__desc">Carillas de porcelana, blanqueamiento profesional y diseño de sonrisa personalizado para lucir radiante.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--3">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12 L24 8 L36 12 L36 30 Q36 40 24 44 Q12 40 12 30 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M19 25 L22 28 L30 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Ortodoncia</h3>
+            <p class="service-card__desc">Brackets tradicionales, ortodoncia invisible (Invisalign) y ortodoncia infantil para una mordida perfecta.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="20" width="28" height="18" rx="4" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M14 20v-4a10 10 0 0120 0v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="24" cy="29" r="3" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Rehabilitación Oral</h3>
+            <p class="service-card__desc">Prótesis fijas y removibles, coronas de porcelana y reconstrucción completa para restaurar tu función masticatoria.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--5">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 10 C16 10 10 16 10 24 C10 32 16 38 24 38 C32 38 38 32 38 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M30 10 L38 10 L38 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M38 10 L28 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Endodoncia</h3>
+            <p class="service-card__desc">Tratamiento de conductos moderno y sin dolor para salvar tu diente natural y eliminar infecciones.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--6">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 38 C16 38 10 32 10 26 C10 20 14 16 18 16 C20 16 22 17 24 19 C26 17 28 16 30 16 C34 16 38 20 38 26 C38 32 32 38 24 38 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M20 24 L28 24 M24 20 L24 28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Periodoncia</h3>
+            <p class="service-card__desc">Prevención y tratamiento de enfermedades de las encías. Curetaje, raspado y cirugía periodontal avanzada.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--1">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 32 L20 14 L24 26 L28 18 L34 32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 36 L38 36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Cirugía Oral</h3>
+            <p class="service-card__desc">Extracciones, cordales, quistes y cirugía maxilofacial con protocolos de mínimo dolor y máxima seguridad.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon service-card__icon--2">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="18" r="10" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M14 32 C14 28 18 26 24 26 C30 26 34 28 34 32 L34 40 L14 40 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M20 18 L22 20 L28 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Odontopediatría</h3>
+            <p class="service-card__desc">Cuidado dental especializado para los más pequeños desde la primera dentición, con ambiente amigable y sin miedo.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+          <div class="service-card service-card--highlight reveal">
+            <div class="service-card__icon service-card__icon--3">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 16 L24 10 L36 16 L36 28 Q36 38 24 42 Q12 38 12 28 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M18 26 L22 30 L30 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Bruxismo y ATM</h3>
+            <p class="service-card__desc">Diagnóstico y tratamiento del rechinar de dientes y disfunción de la articulación temporomandibular.</p>
+            <a href="#contacto" class="service-card__link">Saber más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+
+        </div>
+
+        <div class="servicios__cta reveal">
+          <p>¿No encuentras lo que buscas? Contáctanos, tenemos solución para cada caso.</p>
+          <a href="https://wa.me/51999999999?text=Hola%2C%20quisiera%20consultar%20sobre%20un%20servicio" class="btn btn--primary" target="_blank" rel="noopener">Consultar Ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TECNOLOGIA ==================== -->
+    <section class="section tecnologia" id="tecnologia">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Innovación</span>
+          <h2 class="section__title">Tecnología 100% Digital</h2>
+          <p class="section__subtitle">Invertimos en los mejores equipos para brindarte diagnósticos precisos y tratamientos más cómodos y eficientes.</p>
+        </div>
+        <div class="tecnologia__grid">
+          <div class="tech-item reveal">
+            <div class="tech-item__icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="8" width="40" height="30" rx="3"/><path d="M16 38 L32 38 M24 38 L24 44 M16 44 L32 44"/><circle cx="24" cy="23" r="7"/><path d="M24 16 L24 23 L29 23"/></svg>
+            </div>
+            <h4>Radiografía 3D (CBCT)</h4>
+            <p>Imágenes tridimensionales de alta resolución para planificación de implantes y diagnóstico preciso.</p>
+          </div>
+          <div class="tech-item reveal">
+            <div class="tech-item__icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 20 Q8 8 24 8 Q40 8 40 20"/><path d="M12 20 L36 20 L36 36 Q36 44 24 44 Q12 44 12 36 Z"/><path d="M20 32 L24 28 L28 32"/><path d="M24 28 L24 38"/></svg>
+            </div>
+            <h4>DiagnoCam</h4>
+            <p>Detección temprana de caries entre dientes mediante luz transilluminada sin radiación.</p>
+          </div>
+          <div class="tech-item reveal">
+            <div class="tech-item__icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="12" width="36" height="28" rx="3"/><path d="M14 4 L14 12 M34 4 L34 12 M6 22 L42 22"/><circle cx="18" cy="32" r="3"/><circle cx="30" cy="32" r="3"/></svg>
+            </div>
+            <h4>Escáner Intraoral</h4>
+            <p>Toma de impresiones digitales sin moldes incómodos para coronas, carillas e implantes.</p>
+          </div>
+          <div class="tech-item reveal">
+            <div class="tech-item__icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6 L38 14 L38 30 Q38 42 24 46 Q10 42 10 30 L10 14 Z"/><path d="M18 26 L22 30 L30 22"/></svg>
+            </div>
+            <h4>Láser Dental</h4>
+            <p>Tratamientos de encías sin bisturí, blanqueamiento acelerado y cirugía con mínimo dolor.</p>
+          </div>
+          <div class="tech-item reveal">
+            <div class="tech-item__icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="6" width="32" height="36" rx="4"/><path d="M16 18 L32 18 M16 26 L32 26 M16 34 L24 34"/></svg>
+            </div>
+            <h4>Historia Clínica Digital</h4>
+            <p>Expediente electrónico completo con historial de tratamientos, radiografías y fotos clínicas.</p>
+          </div>
+          <div class="tech-item reveal">
+            <div class="tech-item__icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6 C14 6 8 14 8 22 S14 38 24 42 S40 30 40 22 S34 6 24 6 Z"/><path d="M18 22 L22 26 L30 18"/></svg>
+            </div>
+            <h4>Laboratorio Propio</h4>
+            <p>Elaboración de prótesis, coronas y carillas in-house para mayor control de calidad y rapidez.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== POR QUÉ ELEGIRNOS ==================== -->
+    <section class="section porque" id="porque">
+      <div class="container">
+        <div class="porque__inner">
+          <div class="porque__content reveal">
+            <span class="section__eyebrow">¿Por qué Dental Home?</span>
+            <h2 class="section__title">Lo que nos Hace Diferentes</h2>
+
+            <div class="porque__list">
+              <div class="porque-item">
+                <span class="porque-item__num">01</span>
+                <div class="porque-item__body">
+                  <h4>Primera Consulta Gratuita</h4>
+                  <p>Evaluación completa sin costo para que conozcas tu situación real y tomes decisiones informadas.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <span class="porque-item__num">02</span>
+                <div class="porque-item__body">
+                  <h4>Financiamiento al 100%</h4>
+                  <p>Planes de pago flexibles para que el costo nunca sea un obstáculo para tu salud bucal.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <span class="porque-item__num">03</span>
+                <div class="porque-item__body">
+                  <h4>Atención de Emergencias 24/7</h4>
+                  <p>Un especialista disponible siempre para atender dolores, traumatismos y urgencias dentales.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <span class="porque-item__num">04</span>
+                <div class="porque-item__body">
+                  <h4>Tratamientos Sin Dolor</h4>
+                  <p>Protocolos de anestesia avanzada y sedación consciente para pacientes con fobia dental.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <span class="porque-item__num">05</span>
+                <div class="porque-item__body">
+                  <h4>Garantía en Tratamientos</h4>
+                  <p>Respaldamos nuestros trabajos con garantías escritas. Tu inversión está protegida.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="porque__stats reveal reveal--right">
+            <div class="big-stat">
+              <span class="big-stat__num" data-target="800">0</span><span class="big-stat__suffix">+</span>
+              <span class="big-stat__label">Pacientes satisfechos</span>
+            </div>
+            <div class="big-stat">
+              <span class="big-stat__num" data-target="98">0</span><span class="big-stat__suffix">%</span>
+              <span class="big-stat__label">Tasa de satisfacción</span>
+            </div>
+            <div class="big-stat">
+              <span class="big-stat__num" data-target="15">0</span><span class="big-stat__suffix">+</span>
+              <span class="big-stat__label">Años de experiencia</span>
+            </div>
+            <div class="big-stat">
+              <span class="big-stat__num" data-target="10">0</span><span class="big-stat__suffix"></span>
+              <span class="big-stat__label">Especialistas certificados</span>
+            </div>
+            <div class="porque__cta-wrap">
+              <a href="https://wa.me/51999999999?text=Quiero%20mi%20consulta%20gratuita" class="btn btn--primary btn--lg" target="_blank" rel="noopener">Pedir Consulta Gratis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALERÍA ANTES/DESPUÉS ==================== -->
+    <section class="section galeria" id="galeria">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Resultados Reales</span>
+          <h2 class="section__title">Galería de Sonrisas</h2>
+          <p class="section__subtitle">Casos reales de nuestros pacientes. Cada sonrisa es única y cada transformación, un orgullo para nuestro equipo.</p>
+        </div>
+
+        <div class="galeria__grid">
+          <div class="galeria-card reveal" data-category="Implantes">
+            <div class="galeria-card__imgs">
+              <div class="galeria-card__before">
+                <div class="img-placeholder img-placeholder--dark">
+                  <span>ANTES</span>
+                </div>
+              </div>
+              <div class="galeria-card__after">
+                <div class="img-placeholder img-placeholder--light">
+                  <span>DESPUÉS</span>
+                </div>
+              </div>
+              <div class="galeria-card__badge">Implantes</div>
+            </div>
+            <p class="galeria-card__desc">Rehabilitación completa con implantes dentales. Resultado en 3 meses.</p>
+          </div>
+
+          <div class="galeria-card reveal" data-category="Estética">
+            <div class="galeria-card__imgs">
+              <div class="galeria-card__before">
+                <div class="img-placeholder img-placeholder--dark">
+                  <span>ANTES</span>
+                </div>
+              </div>
+              <div class="galeria-card__after">
+                <div class="img-placeholder img-placeholder--light">
+                  <span>DESPUÉS</span>
+                </div>
+              </div>
+              <div class="galeria-card__badge">Carillas</div>
+            </div>
+            <p class="galeria-card__desc">Diseño de sonrisa con carillas de porcelana. Transformación en 2 semanas.</p>
+          </div>
+
+          <div class="galeria-card reveal" data-category="Ortodoncia">
+            <div class="galeria-card__imgs">
+              <div class="galeria-card__before">
+                <div class="img-placeholder img-placeholder--dark">
+                  <span>ANTES</span>
+                </div>
+              </div>
+              <div class="galeria-card__after">
+                <div class="img-placeholder img-placeholder--light">
+                  <span>DESPUÉS</span>
+                </div>
+              </div>
+              <div class="galeria-card__badge">Ortodoncia</div>
+            </div>
+            <p class="galeria-card__desc">Corrección de mordida con ortodoncia invisible Invisalign. 18 meses de tratamiento.</p>
+          </div>
+
+          <div class="galeria-card reveal" data-category="Blanqueamiento">
+            <div class="galeria-card__imgs">
+              <div class="galeria-card__before">
+                <div class="img-placeholder img-placeholder--dark">
+                  <span>ANTES</span>
+                </div>
+              </div>
+              <div class="galeria-card__after">
+                <div class="img-placeholder img-placeholder--light">
+                  <span>DESPUÉS</span>
+                </div>
+              </div>
+              <div class="galeria-card__badge">Blanqueamiento</div>
+            </div>
+            <p class="galeria-card__desc">Blanqueamiento LED profesional. Resultado inmediato en una sola sesión.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIOS ==================== -->
+    <section class="section testimonios" id="testimonios">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Lo que Dicen Nuestros Pacientes</span>
+          <h2 class="section__title">Testimonios Reales</h2>
+        </div>
+
+        <div class="testimonios__slider reveal">
+          <div class="testimonios__track" id="testimoniosTrack">
+
+            <div class="testimonio-card">
+              <div class="testimonio-card__stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonio-card__text">"Me realizaron implantes dentales y el resultado superó todas mis expectativas. El Dr. y todo el equipo me hicieron sentir segura desde la primera consulta. ¡Ahora sonrío con total confianza!"</p>
+              <div class="testimonio-card__author">
+                <div class="author-avatar">MR</div>
+                <div>
+                  <strong>María R.</strong>
+                  <span>Implantes Dentales</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonio-card">
+              <div class="testimonio-card__stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonio-card__text">"Llevé a mis hijos por primera vez al dentista y me sorprendió lo bien que los atendieron. El ambiente es muy acogedor, los niños no tuvieron miedo. ¡Definitivamente volvemos!"</p>
+              <div class="testimonio-card__author">
+                <div class="author-avatar">CL</div>
+                <div>
+                  <strong>Carlos L.</strong>
+                  <span>Odontopediatría</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonio-card">
+              <div class="testimonio-card__stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonio-card__text">"Tenía mucho miedo al dentista pero en Dental Home me trataron con mucha paciencia. Me hicieron el tratamiento de conductos y no sentí nada de dolor. La tecnología que usan es impresionante."</p>
+              <div class="testimonio-card__author">
+                <div class="author-avatar">AP</div>
+                <div>
+                  <strong>Ana P.</strong>
+                  <span>Endodoncia</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonio-card">
+              <div class="testimonio-card__stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonio-card__text">"Las carillas de porcelana que me pusieron cambiaron completamente mi vida. El Dr. fue muy detallista y el resultado es perfectamente natural. Todos me preguntan si me hice algo diferente."</p>
+              <div class="testimonio-card__author">
+                <div class="author-avatar">SV</div>
+                <div>
+                  <strong>Sandra V.</strong>
+                  <span>Carillas de Porcelana</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonio-card">
+              <div class="testimonio-card__stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0c060"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonio-card__text">"Llevaba años con dolor de mandíbula y bruxismo. En Dental Home me diagnosticaron y trataron de manera integral. Ahora duermo bien y sin dolor. El plan de financiamiento fue muy conveniente."</p>
+              <div class="testimonio-card__author">
+                <div class="author-avatar">JM</div>
+                <div>
+                  <strong>Jorge M.</strong>
+                  <span>Bruxismo y ATM</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testimonios__controls">
+            <button class="slider-btn" id="prevBtn" aria-label="Testimonio anterior">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button class="slider-btn" id="nextBtn" aria-label="Testimonio siguiente">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CITA ==================== -->
+    <section class="section cita" id="cita">
+      <div class="container">
+        <div class="cita__inner">
+          <div class="cita__content reveal">
+            <span class="section__eyebrow section__eyebrow--light">Agenda Tu Cita</span>
+            <h2 class="section__title section__title--light">¿Listo para Transformar Tu Sonrisa?</h2>
+            <p class="cita__desc">Completa el formulario y nos comunicaremos contigo en menos de 2 horas para confirmar tu cita.</p>
+            <div class="cita__benefits">
+              <div class="cita-benefit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Primera consulta sin costo
+              </div>
+              <div class="cita-benefit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Confirmación inmediata por WhatsApp
+              </div>
+              <div class="cita-benefit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Flexibilidad de horarios
+              </div>
+            </div>
+          </div>
+
+          <form class="cita__form reveal reveal--right" id="citaForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono / WhatsApp *</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="9XX XXX XXX" required autocomplete="tel" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="servicio">Servicio de interés *</label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Selecciona un servicio</option>
+                <option>Implantes Dentales</option>
+                <option>Estética Dental / Carillas</option>
+                <option>Ortodoncia / Invisalign</option>
+                <option>Blanqueamiento Dental</option>
+                <option>Rehabilitación Oral</option>
+                <option>Endodoncia (Conductos)</option>
+                <option>Periodoncia (Encías)</option>
+                <option>Cirugía Oral</option>
+                <option>Odontopediatría</option>
+                <option>Bruxismo / ATM</option>
+                <option>Consulta General</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">¿Algo más que debamos saber?</label>
+              <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos brevemente tu caso..."></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="privacidad" name="privacidad" required />
+              <label for="privacidad">Acepto el tratamiento de mis datos personales para recibir información sobre mis cita. <a href="#" style="color:#f0c060">Política de privacidad</a>.</label>
+            </div>
+            <button type="submit" class="btn btn--white btn--full btn--lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Enviar por WhatsApp
+            </button>
+            <p class="form-note">También puedes llamarnos: <a href="tel:+51999999999">+51 999 999 999</a></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACTO ==================== -->
+    <section class="section contacto" id="contacto">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Encuéntranos</span>
+          <h2 class="section__title">Nuestra Ubicación</h2>
+        </div>
+
+        <div class="contacto__grid">
+          <div class="contacto__info reveal">
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Dirección</strong>
+                <p>Av. Principal 123, Lima, Perú</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <strong>Teléfono / WhatsApp</strong>
+                <p><a href="tel:+51999999999">+51 999 999 999</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Correo</strong>
+                <p><a href="mailto:citas@dentalhome.pe">citas@dentalhome.pe</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Horario de Atención</strong>
+                <p>Lun – Vie: 8:00 am – 8:00 pm</p>
+                <p>Sábados: 9:00 am – 2:00 pm</p>
+                <p>Urgencias: 24/7</p>
+              </div>
+            </div>
+
+            <div class="contacto__redes">
+              <a href="#" class="red-social" aria-label="Facebook" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="#" class="red-social" aria-label="Instagram" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="#" class="red-social" aria-label="TikTok" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.54V6.78a4.85 4.85 0 01-1.02-.09z"/></svg>
+              </a>
+              <a href="#" class="red-social" aria-label="YouTube" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contacto__mapa reveal reveal--right">
+            <div class="mapa-placeholder">
+              <iframe
+                title="Ubicación Dental Home"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.421!2d-77.0428!3d-12.0464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAyJzQ3LjAiUyA3N8KwMDInMzQuMSJX!5e0!3m2!1ses!2spe!4v1700000000000"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="navbar__logo footer__logo" aria-label="Dental Home">
+          <span class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 36 36" fill="none"><path d="M18 3C13 3 7 7.5 7 14c0 4 1.5 7 3 10 1.5 3 3 6 4 8h8c1-2 2.5-5 4-8 1.5-3 3-6 3-10 0-6.5-6-11-11-11z" fill="#0b6e8a"/><path d="M13 14c0-2.8 2.2-5 5-5s5 2.2 5 5" stroke="#f0c060" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <div class="logo-text">
+            <span class="logo-main">Dental</span><span class="logo-accent">Home</span>
+          </div>
+        </a>
+        <p class="footer__tagline">Tu salud bucal, nuestra misión. Tecnología, experiencia y atención personalizada para toda la familia.</p>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__col">
+          <h5>Servicios</h5>
+          <ul>
+            <li><a href="#servicios">Implantes Dentales</a></li>
+            <li><a href="#servicios">Estética Dental</a></li>
+            <li><a href="#servicios">Ortodoncia</a></li>
+            <li><a href="#servicios">Rehabilitación Oral</a></li>
+            <li><a href="#servicios">Endodoncia</a></li>
+            <li><a href="#servicios">Odontopediatría</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Clínica</h5>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#tecnologia">Tecnología</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="tel:+51999999999">+51 999 999 999</a></li>
+            <li><a href="mailto:citas@dentalhome.pe">citas@dentalhome.pe</a></li>
+            <li>Av. Principal 123, Lima</li>
+            <li>Lun–Vie: 8am – 8pm</li>
+            <li>Sáb: 9am – 2pm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Dental Home. Todos los derechos reservados.</p>
+        <div class="footer__legal">
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/51999999999?text=Hola%2C%20me%20interesa%20una%20cita%20en%20Dental%20Home" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__pulse"></span>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

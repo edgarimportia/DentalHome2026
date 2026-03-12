@@ -217,7 +217,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   const form = document.getElementById('citaForm');
   if (!form) return;
 
-  const WHATSAPP_NUMBER = '51999999999';
+  const WHATSAPP_NUMBER = '51973512578';
 
   function validate(form) {
     let valid = true;

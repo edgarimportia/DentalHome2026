@@ -870,6 +870,259 @@ input, select, textarea { font-family: inherit; }
 }
 
 /* ============================================
+   PROMOCIONES
+   ============================================ */
+.promociones { background: var(--light-bg); }
+
+.promos__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.promo-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  text-align: center;
+  border: 2px solid var(--gray-100);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.promo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-light);
+}
+.promo-card--featured {
+  border-color: var(--primary);
+  background: linear-gradient(160deg, #fff 60%, rgba(79,195,247,.06) 100%);
+}
+.promo-card--kids {
+  border-color: rgba(240,192,96,.4);
+  background: linear-gradient(160deg, #fff 60%, rgba(240,192,96,.05) 100%);
+}
+.promo-card__badge {
+  position: absolute;
+  top: 14px;
+  right: -28px;
+  background: var(--primary);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 36px;
+  transform: rotate(45deg);
+  letter-spacing: 0.05em;
+}
+.promo-card__icon { font-size: 2.4rem; margin-bottom: 12px; }
+.promo-card h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.promo-tag {
+  background: var(--accent);
+  color: var(--dark);
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+.promo-card__includes {
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.promo-card__includes li {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  padding-left: 4px;
+}
+.promo-card__price {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+/* Cumpleaños banner */
+.cumple-banner {
+  background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%);
+  border-radius: var(--radius-xl);
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.cumple-banner__icon { font-size: 3rem; flex-shrink: 0; }
+.cumple-banner__text { flex: 1; min-width: 200px; }
+.cumple-banner__text h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 6px;
+}
+.cumple-banner__text p {
+  font-size: 0.9rem;
+  color: rgba(0,0,0,.65);
+  margin-bottom: 10px;
+}
+.cumple-benefits {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.cumple-benefits span {
+  background: rgba(0,0,0,.12);
+  color: var(--dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+.cumple-banner .btn--white {
+  flex-shrink: 0;
+  background: var(--dark);
+  color: white;
+  border-color: var(--dark);
+}
+
+/* Influencers */
+.influencer-section {
+  background: var(--dark);
+  border-radius: var(--radius-xl);
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.influencer-section__header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.influencer-section__header h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+.influencer-section__header p {
+  color: rgba(255,255,255,.6);
+  font-size: 0.9rem;
+}
+.influencer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.influencer-item {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: var(--radius-md);
+  padding: 18px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  transition: var(--transition);
+}
+.influencer-item:hover {
+  background: rgba(79,195,247,.1);
+  border-color: rgba(79,195,247,.3);
+}
+.influencer-item--top {
+  border-color: rgba(240,192,96,.4);
+  background: rgba(240,192,96,.06);
+}
+.influencer-icon { font-size: 1.6rem; }
+.influencer-action { font-size: 0.82rem; color: rgba(255,255,255,.75); }
+.influencer-dto {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+.influencer-note {
+  text-align: center;
+  font-size: 0.83rem;
+  color: rgba(255,255,255,.5);
+}
+.influencer-note strong { color: var(--primary-light); }
+
+/* Calendario mensual */
+.calendario-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+.mes-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 18px 14px;
+  text-align: center;
+  border: 1.5px solid var(--gray-100);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.mes-card:hover {
+  border-color: var(--primary-light);
+  transform: translateY(-3px);
+}
+.mes-card--active {
+  border-color: var(--primary);
+  background: rgba(21,101,192,.05);
+}
+.mes-card__mes {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--primary);
+  background: rgba(21,101,192,.08);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  align-self: center;
+}
+.mes-card--active .mes-card__mes {
+  background: var(--primary);
+  color: white;
+}
+.mes-card__promo {
+  font-size: 0.82rem;
+  color: var(--gray-600);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .promos__grid { grid-template-columns: 1fr 1fr; }
+  .influencer-grid { grid-template-columns: repeat(3, 1fr); }
+  .calendario-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 768px) {
+  .promos__grid { grid-template-columns: 1fr; }
+  .influencer-grid { grid-template-columns: repeat(2, 1fr); }
+  .calendario-grid { grid-template-columns: repeat(2, 1fr); }
+  .cumple-banner { flex-direction: column; text-align: center; }
+  .cumple-benefits { justify-content: center; }
+  .influencer-section { padding: 28px 20px; }
+}
+
+/* ============================================
    GALERÍA
    ============================================ */
 .galeria { background: var(--white); }
